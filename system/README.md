@@ -1,12 +1,5 @@
 # ⚙️ Comandos del Sistema
 
-Guía completa de comandos para administración y monitoreo del sistema operativo.
-
-## 📚 Índice
-
-- [🔧 Administración](./administracion.md) - Comandos de administración del sistema
-- [📊 Monitoreo](./monitoreo.md) - Monitoreo de recursos y procesos
-
 ## 🚀 Comandos Esenciales
 
 ### Información del Sistema
@@ -158,14 +151,3 @@ journalctl --vacuum-time=7d  # Limpiar logs de más de 7 días
 # Limpiar archivos temporales
 rm -rf /tmp/*                # Limpiar directorio temporal
 ```
-
-## 📖 Recursos Adicionales
-
-- [Linux System Administration](https://tldp.org/LDP/sag/)
-- [Systemd Documentation](https://www.freedesktop.org/wiki/Software/systemd/)
-- [Linux Performance](http://www.brendangregg.com/linuxperf.html)
-- [Linux Command Library](https://linuxcommandlibrary.com/)
-
----
-
-*Basado en la guía de @midudev* 

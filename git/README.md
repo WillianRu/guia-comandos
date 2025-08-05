@@ -2,11 +2,6 @@
 
 Guía completa de comandos Git para control de versiones y colaboración en proyectos.
 
-## 📚 Índice
-
-- [🚀 Git Básico](./basico.md) - Comandos esenciales para empezar
-- [⚡ Git Avanzado](./avanzado.md) - Comandos avanzados y flujos de trabajo
-
 ## 🚀 Comandos Esenciales
 
 ### Configuración Inicial
@@ -65,26 +60,6 @@ git commit -m "Implementa feature"
 git push origin feature/colaboracion
 ```
 
-## 💡 Mejores Prácticas
-
-### Commits
-- Usa mensajes descriptivos y claros
-- Un commit por cambio lógico
-- Usa el imperativo: "Add", "Fix", "Update"
-- Incluye contexto cuando sea necesario
-
-### Ramas
-- `main` o `master` para código estable
-- `develop` para desarrollo
-- `feature/` para nuevas funcionalidades
-- `hotfix/` para correcciones urgentes
-
-### Colaboración
-- Siempre hace `pull` antes de `push`
-- Usa Pull Requests para revisión
-- Mantén ramas actualizadas
-- Comunica cambios importantes
-
 ## 🔧 Comandos de Diagnóstico
 
 ### Estado del Repositorio
@@ -102,14 +77,3 @@ git blame archivo               # Quién modificó qué línea
 git diff HEAD~1                 # Diferencias con commit anterior
 git remote -v                   # Repositorios remotos
 ```
-
-## 📖 Recursos Adicionales
-
-- [Git Documentation](https://git-scm.com/doc)
-- [GitHub Guides](https://guides.github.com/)
-- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
-- [Conventional Commits](https://www.conventionalcommits.org/)
-
----
-
-*Basado en la guía de @midudev* 
